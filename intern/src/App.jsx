@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function NumberInput() {
+function App() {
   const [number, setNumber] = useState('');
   const [message, setMessage] = useState('');
 
@@ -40,4 +40,4 @@ setMessage(`Next 3 odd numbers: ${nextOddNumbers.join(', ')}`);
   );
 }
 
-export default NumberInput;
+export default App;
